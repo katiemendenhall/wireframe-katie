@@ -1,0 +1,175 @@
+body {
+	font-family: Arial;
+	font-size: 24px;
+	margin: 0px;
+
+	}
+
+.topsection { 
+	color: black;
+	text-align: left;
+	background-color: #ede5d8;
+	border: solid 3px #E941B2;
+	
+	
+ }
+
+img {
+	width: 75%;
+	display: inline-block;
+	
+}
+p {
+	display: inline-block;
+	height: 200px;
+
+}
+
+	
+
+	
+}
+.content{
+	width:300px;
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+.about-me {
+	background-color: lightblue;
+	text-align: center;
+}
+.about-title{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 42px;
+}
+
+.about-img{
+	width: 50%;
+	display: inline-block;
+}
+.about-body{ 
+	width: 50%; 
+	display: inline-block;
+	vertical-align: top;
+}
+
+@media only screen and (max-width: 900px) {
+	.about-body {
+		width: 90%;
+
+	}
+	.about-title {
+	
+	}
+	.about-img {
+		width: 100px;
+		padding-right: 280px;
+	}
+	
+
+
+@media only screen and (max-width: 900px) {
+	.portfolio-body { 
+		width: 90%;
+	 }
+	.portfolio-title {
+
+	}
+	.portfolio-img1, 
+	.portfolio-img2,
+	.portfolio-img3 { 
+		display: block;
+		width: 90%;
+	 }
+    
+ }
+
+.contact-me {
+	background-color: lightblue;
+ }
+.contact-title {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 42px;
+	text-align: center;
+
+}
+.contact-body{ 
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+ }
+@media only screen and (max-width: 900px) {
+	.contact-body { 
+		width: 90%;
+	 }
+}
+.outer {
+	background-color: rgb(86, 108, 188);
+	width: 300px;
+	height: 300px;
+	position: relative;
+}
+    .inner {
+	background-color: #E09F3E;
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	top: -20px;
+	right: -20px;
+
+
+
+
+.block1img {
+	display: inline-block;
+	border-radius: 0%;
+ 	height: 300px;
+ 	padding: 0px;
+ 	position: relative;
+ 	
+}
+.block2img {
+	display: inline-block;
+	border-radius: 0%;
+ 	height: 300px;
+ 	padding: 0px;
+ 	position: relative;
+ 	
+}
+.block3img { 
+ 	display: inline-block;
+ 	border-radius: 0%;
+ 	height: 300px;
+ 	padding: 0px;
+ 	position: relative;
+ 	
+ }
+ .block1-img,
+ .block2-img,
+ .block3-img {
+ 	display: inline-block;
+ 	position: relative;
+ }
+ a{ 
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+	font-weight: bold;
+	position: relative;
+	top: -38px;
+ 	background-color: rgba(0,0,0, 0.4);
+ 	padding: 5px; 
+ }
+
+}
+
+
+ 
+
+ 
